@@ -74,9 +74,31 @@ a[0] = 1
 
 2. 리스트에 원소 추가
 
-list.append([원소])
+list.append(원소)
 
-3. 리스트 반복
+list.insert(입력할 index, 원소)
+
+list = [1,2,3]
+
+list.extend([4,5,6])
+ 
+list => [1,2,3,4,5,6]
+
+3. 리스트에 원소 삭제
+
+del a[삭제할 index]
+
+a.remove(삭제할 아이템) => 없을 경우 ValueError발생
+
+#del키워드와 index메소드 혼합사용시 remove효과 남
+
+a = [1,2,3,4,5,6,7]
+
+del a[a.index(3)]
+
+a => [1,2,4,5,6,7]
+
+4. 리스트 반복
 
 a = [5,3]
 
@@ -92,7 +114,7 @@ c[0].append(7)
 
 c => [[2,5,7],[2,5,7],[2,5,7]]
 
-4. 리스트 인덱싱/ 슬라이싱
+5. 리스트 인덱싱/ 슬라이싱
 
 s = 'show hot to index into sequences'.split()        #s = ['show', 'how', 'to', 'index', 'into', 'sequences']
 
@@ -223,5 +245,8 @@ a.count(13) => 0
 11 in [1, 3, 5] => False
 
 11 not in [1, 3, 5] => True
+```
+
+### 리스트 정렬
 ```
 
