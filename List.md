@@ -1,6 +1,7 @@
-리스트 선언 총 정리 + 컴프리헨션 정리하기
+<h1 align="center">리스트 선언 총 정리 + 컴프리헨션 정리</h1>
+<p align="center"><img src="https://img.shields.io/badge/-Python3-blue?style=flat-square&logo=python&logoColor=white"></p>
 
-리스트
+#리스트
 : 어떠한 크기의 데이터 모음을 저장 할 수 있다.
 
 : list 클래스로 정의된 시퀀스이다.
