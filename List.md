@@ -250,3 +250,20 @@ a.count(13) => 0
 ### 리스트 정렬
 ```
 
+```
+
+### 리스트 변환
+```
+#string 에서 list로
+words = "python은 좋은 언어입니다."
+words_list = words.split()
+words_list => ['python은', '프로그래밍을', '배우기에', '아주', '좋은', '언어입니다.']
+
+time_str = "10:39:17"
+time_str.split(':') => ['10', '34', '17']
+
+#list에서 string으로 
+time_list =>['10', '34', '17']
+':'.join(time_list) => '10:34:17'
+```
+
